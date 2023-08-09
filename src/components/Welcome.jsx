@@ -4,7 +4,7 @@ export default function Welcome(){
     return(
         <>
             <div className="container">
-                <h1 className="titel pt-44 mb-3 text-8xl"> Meta Quest 2</h1>
+                <h1 className="titel pt-44 mb-3 text-8xl"> Virtual Store</h1>
                 <p className="subtitel mb-1 text-4xl"> shop and etc for free </p>
                 <p className="top__text mb-12 text-xs"> 
                     Promotion time is limited and valid until 1/19/2000 
