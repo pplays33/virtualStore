@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 
 import Header from './components/Header'
 import MainPage from './pages/MainPage'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <div>
         <Header />
         <MainPage />
+        <Footer />
       </div>
     </>
   )

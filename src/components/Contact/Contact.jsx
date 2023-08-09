@@ -8,7 +8,7 @@ export default function Contact(){
                 </h2>
             </div>
             <div className="form w-full">
-                <input type="text" placeholder="email" className="mr-2 border-b border-black"/>
+                <input type="text" placeholder="E - mail" className="mr-2 border-b border-black"/>
                 <button type="submit" className=" text-center border-2 border-purple-200 p-1 rounded-full"> go </button>
             </div>
             <div className="About-text flex justify-between">

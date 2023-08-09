@@ -2,7 +2,7 @@
 export default function Ticker(){
     return(
         <>
-            <div className="container ticker overflow-x-hidden overflow-y-hidden">
+            <div className=" ticker overflow-x-hidden overflow-y-hidden">
                 <div className="text-bg 
                  flex justify-center items-center
                 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600

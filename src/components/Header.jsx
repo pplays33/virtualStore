@@ -9,6 +9,9 @@ export default function Header(){
             <header className='header  border-b border-solid border-gray-500'>
                 <div className="container ">
                     <nav className="nav h-20 flex flex-wrap justify-between items-center ">
+                        <button className="header__burger-btn">
+                            <span></span><span></span><span></span>
+                        </button>
                         <ul className="menu flex gap-x-5">
                             <li className="menu__list">
                                 <a href="" className="menu__link"> Shop</a>
@@ -17,7 +20,7 @@ export default function Header(){
                                 <a href="" className="menu__link"> Games</a>
                             </li>
                             <li className="menu__list">
-                                <a href="" className="menu__link"> Metaverse gr fi</a>
+                                <a href="" className="menu__link"> Metaverse</a>
                             </li>
                         </ul>
                         <a href="#" className="logo " >
