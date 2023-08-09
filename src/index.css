@@ -29,9 +29,53 @@ p{
 }
 
 .Welcome{
+  margin-bottom: 20px;
   min-height: calc(100vh - 81px);
   background-image: url(./assets/welcome.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
+}
+.tabs{
+  display: grid;
+  grid-template-columns: 160px auto;
+}
+.tabs__cont-item{
+  display: grid;
+  grid-template-columns: auto 280px;
+  grid-template-rows: auto 150px;
+  gap: 5px;
+}
+.tabs__cont-item{
+  position: absolute;
+  opacity: 0;
+}
+.tabs__cont-item--active{
+  opacity: 1;
+}
+.tabs__btn-item--active{
+  color:cadetblue;
+}
+
+
+.Market-container{
+  display: grid;
+  grid-template-columns: 160px auto;
+}
+
+/* animation for Ticker.jsx*/
+
+.text-bg{
+  animation: lineText 10s linear 1s infinite;
+}
+
+@keyframes lineText {
+  from{
+      transform: translateX(100%);
+      transform-origin: left center;
+  }
+  to{
+    transform: translateX(-100%);
+    transform-origin: right center;
+  }
 }
